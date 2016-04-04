@@ -50,10 +50,29 @@ module.exports = function(grunt) {
   inline: {
 		build: { 
 				
-			src: 'dist/*.html',
-			dest: ''
+			src: 'src/index.html',
+			dest: 'dist/index.html'
 		 
 	}
+  },
+  
+  //添加MD5版本号
+   file_version: {
+    js: {
+        options: {
+       		 cdnhost:'http://static.youcdnhost.com/'
+        },
+        files: {
+          'dist/index.html': ['dist/js/*.js'],
+        },
+      },
+	  css: {
+	    options: {
+	    },
+	    files: {
+	      'dist/index.html': ['dist/css/*.css'],
+	    },
+	  },
   },
     //文件指纹
     rev: {
@@ -121,6 +140,7 @@ module.exports = function(grunt) {
             dest: 'dist/', 
             filter: 'isFile'
           }
+
         ]
       }
     },
@@ -166,6 +186,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-rev');
   grunt.loadNpmTasks('grunt-inline');
+  grunt.loadNpmTasks('grunt-file-version');
  
   // 告诉grunt当我们在终端中输入grunt时需要做些什么（注意先后顺序）
   grunt.registerTask('default', [
@@ -175,10 +196,12 @@ module.exports = function(grunt) {
     'jshint', 
     'uglify', 
     'cssmin',
+	'copy',
     'inline',
-    'copy',
+	'file_version',
+    
     //'watch',
-   // 'rev',
+    //'rev',
   ]);
  
 };

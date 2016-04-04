@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<!--[if lte IE 6 ]> <html class="ie ie6 lte_ie7 lte_ie8" lang="zh-CN"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie ie7 lte_ie7 lte_ie8" lang="zh-CN"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie ie8 lte_ie8" lang="zh-CN"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie ie9" lang="zh-CN"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]> <html lang="zh-CN"> <![endif]-->
+
+<head>
+	<title>互联网+县域 产业升级电商扶贫解决方案服务商</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="keywords" content="蜂巢电商 互联网 县域 产业升级 电商扶贫 解决方案 服务商" />
+	<meta name="description" content="互联网+县域 产业升级电商扶贫解决方案服务商" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" />
+	<meta name="author" />
+	<meta name="robots" />
+
+
+	<link rel="stylesheet" media="screen" href="./assets/v2/bootstrap/css/bootstrap.css?6.15.5" />
+	<link rel="stylesheet" media="screen" href="./assets/css/common.css?6.15.5" />
+	<link rel="stylesheet" media="screen" href="./assets/css/ehoneycomb.css?6.15.5" />
+	<link rel="stylesheet" media="screen" href="./assets/css/font-awesome.min.css?6.15.5" />
+	<link rel="stylesheet" media="screen" href="./assets/v2/css/es-icon.css?6.15.5" />
+	<link rel="stylesheet" media="screen" href="./assets/v2/css/main.css?6.15.5" />
+
+
+
+
+	<!--[if lt IE 9]>
+    <script src="./assets/libs/html5shiv.js?6.15.5"></script>
+    <script src="./assets/libs/respond.min.js?6.15.5"></script>
+  <![endif]-->
+	<!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+	<!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+	<!--[if lt IE 9]>
+         <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="http://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+
+	<script>
+		var app = {};
+		app.debug = false;
+		app.version = '6.15.3';
+		app.httpHost = 'http://www.taobaobs.com';
+		app.basePath = './assets';
+		app.theme = 'jianmo';
+		//app.themeGlobalScript = 'assets/libs/global-script';
+		app.jsPaths = {
+			"common": "common",
+			"theme": "\/themes\/jianmo\/js",
+			"anywhereserverbundle": "\/bundles\/anywhereserver\/js",
+			"filesharebundle": "\/bundles\/fileshare\/js",
+			"gracefulthemebundle": "\/bundles\/gracefultheme\/js",
+			"vipbundle": "\/bundles\/vip\/js",
+			"anywhereclientbundle": "\/bundles\/anywhereclient\/js",
+			"discountbundle": "\/bundles\/discount\/js",
+			"userimporterbundle": "\/bundles\/userimporter\/js",
+			"chargecoinbundle": "\/bundles\/chargecoin\/js",
+			"materiallibbundle": "\/bundles\/materiallib\/js",
+			"moneycardbundle": "\/bundles\/moneycard\/js",
+			"homeworkbundle": "\/bundles\/homework\/js",
+			"questionplusbundle": "\/bundles\/questionplus\/js",
+			"couponbundle": "\/bundles\/coupon\/js",
+			"customwebbundle": "\/bundles\/customweb\/js",
+			"customadminbundle": "\/bundles\/customadmin\/js",
+			"topxiawebbundle": "\/bundles\/topxiaweb\/js",
+			"topxiaadminbundle": "\/bundles\/topxiaadmin\/js",
+			"classroombundle": "\/bundles\/classroom\/js",
+			"sensitivewordbundle": "\/bundles\/sensitiveword\/js"
+		};
+
+		app.crontab = '/common/crontab';
+
+		var CKEDITOR_BASEPATH = app.basePath + '/assets/libs/ckeditor/4.6.7/';
+
+		app.config = {
+			"api": {
+				"weibo": {
+					"key": "1549269531"
+				},
+				"qq": {
+					"key": "101252320"
+				},
+				"douban": {
+					"key": ""
+				},
+				"renren": {
+					"key": "06f3a36134044a50bef07871fda37f9f"
+				}
+			},
+			"cloud": {
+				"video_player": "http:\/\/cdn.staticfile.org\/GrindPlayerCN\/1.0.2\/GrindPlayer.swf",
+				"video_player_watermark_plugin": "http:\/\/cdn.staticfile.org\/GrindPlayerCN\/1.0.2\/Watermake-1.0.3.swf",
+				"video_player_fingerprint_plugin": "http:\/\/cdn.staticfile.org\/GrindPlayerCN\/1.0.2\/Fingerprint-1.0.1.swf"
+			},
+			"loading_img_path": "\/assets\/img\/default\/loading.gif?6.15.3"
+		};
+
+		app.arguments = {};
+		//app.controller = 'course/explore';
+
+		app.scripts = ["fullPage\/page", "category\/nav", "es-bar\/index", "notification\/notification"];
+
+		app.uploadUrl = '/file/upload';
+		app.imgCropUrl = '/file/img/crop';
+		app.lessonCopyEnabled = '0';
+
+		app.mainScript = './assets/libs/app.js?6.15.3';
+	</script>
+	<script src="assets/libs/seajs/seajs/2.2.1/sea.js?6.15.3"></script>
+	<script src="assets/libs/seajs/seajs-style/1.0.2/seajs-style.js?6.15.3"></script>
+	<script src="assets/libs/seajs-global-config.js?6.15.3"></script>
+	<script>
+		seajs.use(app.mainScript);
+	</script>
+
+
+</head>
+
+<body>
+	<div class="es-wrap">
+
+
+		<!--header       -->
+		<header class="es-header navbar">
+			<div class="navbar-header">
+				<div class="visible-xs  navbar-mobile">
+					<a href="javascript:;" class="navbar-more js-navbar-more">
+						<i class="es-icon es-icon-menu"></i>
+					</a>
+					<div class="html-mask"></div>
+					<div class="nav-mobile">
+
+						<ul class="nav navbar-nav">
+
+
+							<li class=""><a href="/">首页</a></li>
+							<li class="nav-hover   "><a href="">县域电商营销服务  </a></li>
+							<li class="nav-hover   "><a href="">淘宝网·特色中国湖北馆  </a></li>
+							<li class="nav-hover   "><a href="">湖北农食品卖家联盟  </a></li>
+							<li class="nav-hover   "><a href="">经典案例  </a></li>
+							<li class="nav-hover   "><a href="">新闻动态  </a></li>
+							<li class="nav-hover   "><a href="">关于我们  </a></li>
+
+
+						</ul>
+					</div>
+				</div>
+				<a href="/" class="navbar-brand">
+					<img src="./assets/images/logo.png">
+				</a>
+			</div>
+			<nav class="collapse navbar-collapse">
+				<ul class="nav navbar-nav clearfix hidden-xs " id="nav">
+
+					<li class=""><a href="/">首页</a></li>
+					<li class="nav-hover   "><a href="">县域电商营销服务  </a></li>
+					<li class="nav-hover   "><a href="">淘宝网·特色中国湖北馆  </a></li>
+					<li class="nav-hover   "><a href="">湖北农食品卖家联盟  </a></li>
+					<li class="nav-hover   "><a href="">经典案例  </a></li>
+					<li class="nav-hover   "><a href="">新闻动态  </a></li>
+					<li class="nav-hover   "><a href="">关于我们  </a></li>
+
+
+
+
+
+
+
+				</ul>
+
+			</nav>
+		</header>
+		<!--header       -->
+
+
+		<div class="container-fluid">
+			<div class="row-fluid" id="box">
+				<div class="span12" id="dowebok">
+					<style>
+						.section h1 {
+							text-align: center;
+						}
+						
+						.section1 {
+							background: url(assets/images/slide1.jpg) 50% 0px;
+						}
+						
+						.section2 {
+							background: #f4f4f4;
+						}
+						
+						.section3 {
+							background: #fff;
+						}
+						
+						.section4 {
+							background: url(assets/images/juzhen.jpg) 50% 0px no-repeat #f4f4f4;
+							background-size: contain
+						}
+						
+						#box {
+							transition: all 1000ms cubic-bezier(0.86, 0, 0.07, 1);
+							-webkit-transition: all 1000ms cubic-bezier(0.86, 0, 0.07, 1);
+						}
+						
+						#box.top {
+							transform: translate3d(0px, 200px, 0px);
+							-webkit-transform: translate3d(0px, 200px, 0px);
+						}
+						
+						#box.bottom {
+							transform: translate3d(0px, -660px, 0px);
+							-webkit-transform: translate3d(0px, -660px, 0px);
+						}
+					</style>
+
+
+
+
+					<div class="container">
+						<h1 style="text-align:center"><img src="assets/images/title-xwdt.png "></h1>
+						<div class=" container article-list-main">
+      <section class="es-section col-md-12 ">
+  <div class="article-list">
+                      	<article class="article-item">
+  <div class="article-metas clearfix">
+    <div class="pull-left">
+      <div class="date">
+        <div class="day">21</div>
+        <div class="month">10月</div>
+      </div>
+    </div>
+    <div class="metas-body">
+      <p>
+        <a class="link-light" href="/article/category/activity">活动</a>
+      </p>
+      <h2 class="title">
+        <a class="link-dark" href="/article/239">百度携手EduSoho,特邀100所高校共建MOOC大数据中心</a>
+      </h2>
+    </div>
+  </div>
+    <div class="media">
+    <div class="media-left">
+      <a href="/article/239">
+        <img class="thumb-img" src="http://demo.edusoho.com/files/default/2016/01-27/153526e723bf781898.jpg?6.16.0" alt="百度携手EduSoho,特邀100所高校共建MOOC大数据中心"></a>
+    </div>
+    <div class="media-body">想让您的学校实现“互联网+教育”的华丽转身，可高昂的建设成本让专属MOOC平台举步维艰？想让您的学校实现“互联网+教育”的华丽转身，可高昂的建设成本让专属MOOC平台举步维艰？有梦想就有平台，您的事业我们助飞！百度开放云将每年投入一亿云计算资源，联合E...</div>
+  </div>
+  </article>  	                   
+</div></section>
+    </div>
+					</div>
+
+
+
+
+
+
+
+					<!--footer.html        -->
+					<footer class="es-footer">
+						<div class=" social-box js-social-box">
+							<div class="container">
+								<div class="left social-feed">
+
+									<a href="" target="_blank">关于蜂巢</a> |
+									<a href="" target="_blank">县域农产品电商营销服务</a> |
+									<a href=" " target="_blank">基于第三方平台营销服务</a> |
+									<a href=" " target="_blank">经典案例</a> |
+									<a href=" " target="_blank">新闻动态</a>
+								</div>
+								<div class="right social-link text-right">
+									<a href="#" class="link js-weixin" title="微信">
+										<span class="icon icon-weixin"></span>
+									</a>
+									<a href="http://e.weibo.com/qiniutek" target="_blank" class="link" title="新浪微博">
+										<span class="icon icon-weibo"></span>
+									</a>
+									<a href="https://github.com/qiniu" target="_blank" title="Github">
+										<span class="icon icon-github"></span>
+									</a>
+									<a href="http://segmentfault.com/qiniu" target="_blank" class="link last" title="问答社区">
+										<span class="icon icon-sf"></span>
+									</a>
+								</div>
+								<div class="popup erweima js-popup">
+									<div class="popup-box js-popup-box popup-rotate-init">
+										<i class="icon icon-close popup-close js-popup-close"></i>
+										<div class="popup-box-inner icon-erweima">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class=" footer-box js-footer-box" style="height: 417px;">
+							<div class="container">
+								<div class="bottom-link clearfix">
+									<div class="left cooperation">
+										<a href="/contact" class="icon icon-contact" title="点击查看更多联系方式"></a>
+										<ul>
+											<li>
+												联系电话：027-59708101
+											</li>
+											<li>
+												商务合作：<a href="mailto:marketing@qiniu.com">yuanxb@ehoneycomb.com</a>
+											</li>
+
+
+											<li>
+												<a href="/contact" title="点击查看公司地址" class="contact">公司地址：武汉市硚口区国家电子商务示范基地
+                  古田一路丰硕路28号新工厂电子商务产业园11栋<span class="icon icon-addr"></span></a>
+											</li>
+										</ul>
+									</div>
+									<div class="right    ">
+										<h4>关于</h4>
+										<ul>
+											<li><a href="">县域农产品电商营销服务</a> </li>
+											<li><a href="">互联网+智慧县域大数据平台服务</a> </li>
+											<li><a href="">县域农产品大型营销活动策划服务</a> </li>
+											<li><a href="">县域社群营销体系建设服务</a> </li>
+											<li><a href="">县域农产产品文创视觉服务</a> </li>
+											<li><a href="">县域农产品溯源及标准化体系建设服务</a> </li>
+											<li><a href="">县域电商农产品智慧供应链建设服务</a></li>
+											<li><a href="">县域电商线上平台建设运营服务</a></li>
+											<li><a href="">县域农产品公共品牌建设服务</a></li>
+											<li><a href="">县域电子商务培训服务</a></li>
+											<li><a href="">县域电商公共服务中心建设服务</a></li>
+										</ul>
+									</div>
+
+
+								</div>
+								<div class="copyright">
+									<div class="text-center">
+										<a href=" " target="_blank">
+											<span class="icon icon-trusted-cloud"></span>
+										</a>
+										<a href=" " target="_blank">
+											<span class="icon icon-gongshang"></span>
+										</a>
+									</div>
+									<div class="text-center cp-text">
+										<span>&copy; 2015 武汉蜂巢电商有限公司</span>
+
+										<a href="http://www.miitbeian.gov.cn/">沪ICP备11037377号-5</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</footer>
+
+					<!--footer.html        -->
+
+
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>

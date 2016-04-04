@@ -1,0 +1,233 @@
+.container-fluid {
+	padding: 0px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.footer-box {
+	background-color: #2f3239;
+	color: #ccc;
+	font-size: 12px
+}
+
+.footer-box .col {
+	width: 30%;
+	float: left
+}
+
+.footer-box .col.last {
+	width: 8%
+}
+
+.footer-box .bottom-link {
+	padding-top: 40px
+}
+
+.footer-box .bottom-link .left {
+	padding-left: 0
+}
+
+.footer-box .bottom-link .right {
+	width: 52%
+}
+
+.footer-box .bottom-link .cooperation {
+	width: 330px
+}
+
+.footer-box .bottom-link .cooperation a.icon {
+	position: relative;
+	top: -5px
+}
+
+.footer-box .bottom-link .contact {
+	display: inline-block;
+	width: 100px
+}
+
+.footer-box .bottom-link .docs,
+.footer-box .bottom-link .product {
+	width: 225px
+}
+
+.footer-box .bottom-link .about {
+	width: 50px
+}
+
+.footer-box h4 {
+	margin: 10px 0 20px;
+	color: #fff
+}
+
+.footer-box ul {
+	list-style-type: none;
+	padding: 0
+}
+
+.footer-box li {
+	padding: 0;
+	line-height: 26px;
+	width: 100%
+}
+
+.footer-box a {
+	color: #ccc
+}
+
+.footer-box .copyright {
+	padding-top: 50px
+}
+
+.footer-box .copyright a {
+	margin-left: 5px;
+	margin-right: 5px
+}
+
+.footer-box .copyright span {
+	margin-left: 10px
+}
+
+.footer-box .copyright .cp-text {
+	margin: 20px 0 15px;
+	color: #52555a
+}
+
+.footer-box .copyright .cp-text a {
+	color: #52555a
+}
+
+@media screen and (max-width:1170px) {
+	.footer-box,
+	.social-box {
+		padding-left: 30px;
+		padding-right: 30px
+	}
+}
+
+.social-box {
+	background-color: #212328;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #ccc
+}
+
+.social-box .icon {
+	vertical-align: middle
+}
+
+.social-box a {
+	color: #ccc;
+	margin: 0 10px;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px
+}
+
+.social-box a.last {
+	margin-right: 0
+}
+
+.footer-box {
+	background-color: #2f3239;
+	color: #ccc;
+	font-size: 12px
+}
+
+.footer-box .col {
+	width: 30%;
+	float: left
+}
+
+.footer-box .col.last {
+	width: 8%
+}
+
+.footer-box .bottom-link {
+	padding-top: 40px
+}
+
+.footer-box .bottom-link .left {
+	padding-left: 0
+}
+
+.footer-box .bottom-link .right {
+	width: 52%
+}
+
+.footer-box .bottom-link .cooperation {
+	width: 330px
+}
+
+.footer-box .bottom-link .cooperation a.icon {
+	position: relative;
+	top: -5px
+}
+
+.footer-box .bottom-link .contact {
+	display: inline-block;
+	width: 100px
+}
+
+.footer-box .bottom-link .docs,
+.footer-box .bottom-link .product {
+	width: 225px
+}
+
+.footer-box .bottom-link .about {
+	width: 50px
+}
+
+.footer-box h4 {
+	margin: 10px 0 20px;
+	color: #fff
+}
+
+.footer-box ul {
+	list-style-type: none;
+	padding: 0
+}
+
+.footer-box li {
+	padding: 0;
+	line-height: 26px;
+	width: 100%
+}
+
+.footer-box a {
+	color: #ccc
+}
+
+.footer-box .copyright {
+	padding-top: 50px
+}
+
+.footer-box .copyright a {
+	margin-left: 5px;
+	margin-right: 5px
+}
+
+.footer-box .copyright span {
+	margin-left: 10px
+}
+
+.footer-box .copyright .cp-text {
+	margin: 20px 0 15px;
+	color: #52555a
+}
+
+.footer-box .copyright .cp-text a {
+	color: #52555a
+}
+
+@media screen and (max-width:1170px) {
+	.footer-box,
+	.social-box {
+		padding-left: 30px;
+		padding-right: 30px
+	}
+}
